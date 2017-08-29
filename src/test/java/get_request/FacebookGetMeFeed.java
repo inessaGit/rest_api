@@ -8,7 +8,10 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-
+/*
+ * OkHTTP is an open source project designed to be an efficient HTTP client. It supports the SPDY protocol. 
+ * SPDY is the basis for HTTP 2.0 and allows multiple HTTP requests to be multiplexed over one socket connection
+ */
 public class FacebookGetMeFeed {
 	
 	public void fb_get_request_me_feed() throws IOException{
