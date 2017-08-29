@@ -36,7 +36,7 @@
       ],
       "request": {
         "url": {
-          "raw": "https://graph.facebook.com/me?access_token=EAACEdEose0cBAPbgvzZB5eovyVfMflwQIXwfPZBaZCYmzhFLADaphLzy6UABmb1RUtzSaBZBBxMeUCLBOzcAWf4DCYw1sTMYAe8DcU54uxhEfx0mMmCWPjrAHCl0KTrBkjxeJYXCPmvNDjCOjF88WvAkIy3B3oUOwvPxZCVHKlLj31WyQEH7lfU68zYSSZC88ZD",
+          "raw": "https://graph.facebook.com/me?access_token=EAACEdEose0cBAIy5Kit04ZBzSF7sMBnxWmeTy23x8ufHZCCEkBCSqsr1nUFR3Fil96sMrfxdtLQBWQnEObA447UIPIX9zqLmgDtt76jrIBxEetLInyD5A1ONJEEJrBkr7WKNAopgFAuIMPfSsuSmO7cLAN4CEky6EZAtYLJ5qGXZB9EXJe0Gb75hi8dkCIrC6OSyvGXVNAZDZD",
           "protocol": "https",
           "auth": {},
           "host": [
@@ -50,7 +50,7 @@
           "query": [
             {
               "key": "access_token",
-              "value": "EAACEdEose0cBAPbgvzZB5eovyVfMflwQIXwfPZBaZCYmzhFLADaphLzy6UABmb1RUtzSaBZBBxMeUCLBOzcAWf4DCYw1sTMYAe8DcU54uxhEfx0mMmCWPjrAHCl0KTrBkjxeJYXCPmvNDjCOjF88WvAkIy3B3oUOwvPxZCVHKlLj31WyQEH7lfU68zYSSZC88ZD",
+              "value": "EAACEdEose0cBAIy5Kit04ZBzSF7sMBnxWmeTy23x8ufHZCCEkBCSqsr1nUFR3Fil96sMrfxdtLQBWQnEObA447UIPIX9zqLmgDtt76jrIBxEetLInyD5A1ONJEEJrBkr7WKNAopgFAuIMPfSsuSmO7cLAN4CEky6EZAtYLJ5qGXZB9EXJe0Gb75hi8dkCIrC6OSyvGXVNAZDZD",
               "equals": true,
               "description": ""
             }
