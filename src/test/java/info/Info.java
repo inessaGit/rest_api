@@ -17,7 +17,8 @@ The Facebook SDK for Android is the easiest way to integrate your Android app wi
  */
 public class Info {
 	
-	//FB Test Account 2: inez2209@gmail.com
+	
+	//An API Key is required to be sent as part of every request to the Postman Pro API, in the form of an X-Api-Key request header.
 	public final String postmanProKey ="90d65bda68c04d0f949ad47a95473545";
 	public final String fbEmail ="inez2209@gmail.com" ;
 	public final String graphURL ="https://graph.facebook.com/";
