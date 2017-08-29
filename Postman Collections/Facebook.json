@@ -1,0 +1,132 @@
+{
+  "variables": [],
+  "info": {
+    "name": "Facebook",
+    "_postman_id": "62385608-4105-1118-6d24-5c3b98da7736",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "e5aac118-f301-fcb9-8fb9-396ad7a57d55",
+      "name": "GET Request /me?access_token",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "var responseJSON;",
+              "",
+              "try { ",
+              "    responseJSON = JSON.parse(responseBody); ",
+              "    tests['response is valid JSON'] = true;",
+              "}",
+              "catch (e) { ",
+              "    responseJSON = {}; ",
+              "    tests['response is valid JSON'] = false;",
+              "}",
+              "",
+              "",
+              "tests['response has PUT data'] = _.has(responseJSON, 'data');",
+              "tests['response matches the data sent in request'] = (responseJSON.data && responseJSON.data.length === 256);"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": {
+          "raw": "https://graph.facebook.com/me?access_token=EAACEdEose0cBAPbgvzZB5eovyVfMflwQIXwfPZBaZCYmzhFLADaphLzy6UABmb1RUtzSaBZBBxMeUCLBOzcAWf4DCYw1sTMYAe8DcU54uxhEfx0mMmCWPjrAHCl0KTrBkjxeJYXCPmvNDjCOjF88WvAkIy3B3oUOwvPxZCVHKlLj31WyQEH7lfU68zYSSZC88ZD",
+          "protocol": "https",
+          "auth": {},
+          "host": [
+            "graph",
+            "facebook",
+            "com"
+          ],
+          "path": [
+            "me"
+          ],
+          "query": [
+            {
+              "key": "access_token",
+              "value": "EAACEdEose0cBAPbgvzZB5eovyVfMflwQIXwfPZBaZCYmzhFLADaphLzy6UABmb1RUtzSaBZBBxMeUCLBOzcAWf4DCYw1sTMYAe8DcU54uxhEfx0mMmCWPjrAHCl0KTrBkjxeJYXCPmvNDjCOjF88WvAkIy3B3oUOwvPxZCVHKlLj31WyQEH7lfU68zYSSZC88ZD",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "Etiam mi lacus, cursus vitae felis et, blandit pellentesque neque. Vestibulum eget nisi a tortor commodo dignissim.\nQuisque ipsum ligula, faucibus a felis a, commodo elementum nisl. Mauris vulputate sapien et tincidunt viverra. Donec vitae velit nec metus."
+        },
+        "description": "https://graph.facebook.com/me?access_token=<your access token>\n\ngenerated via \nhttps://developers.facebook.com/tools/explorer/\n\t\n"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "01edb9e3-51d4-77bb-ae25-920768eafd1c",
+      "name": "GET Request /me/feed?access_token",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "var responseJSON;",
+              "",
+              "try { ",
+              "    responseJSON = JSON.parse(responseBody); ",
+              "    tests['response is valid JSON'] = true;",
+              "}",
+              "catch (e) { ",
+              "    responseJSON = {}; ",
+              "    tests['response is valid JSON'] = false;",
+              "}",
+              "",
+              "",
+              "tests['response has PUT data'] = _.has(responseJSON, 'data');",
+              "tests['response matches the data sent in request'] = (responseJSON.data && responseJSON.data.length === 256);"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": {
+          "raw": "https://graph.facebook.com/me/feed?access_token=EAACEdEose0cBAPbgvzZB5eovyVfMflwQIXwfPZBaZCYmzhFLADaphLzy6UABmb1RUtzSaBZBBxMeUCLBOzcAWf4DCYw1sTMYAe8DcU54uxhEfx0mMmCWPjrAHCl0KTrBkjxeJYXCPmvNDjCOjF88WvAkIy3B3oUOwvPxZCVHKlLj31WyQEH7lfU68zYSSZC88ZD",
+          "protocol": "https",
+          "auth": {},
+          "host": [
+            "graph",
+            "facebook",
+            "com"
+          ],
+          "path": [
+            "me",
+            "feed"
+          ],
+          "query": [
+            {
+              "key": "access_token",
+              "value": "EAACEdEose0cBAPbgvzZB5eovyVfMflwQIXwfPZBaZCYmzhFLADaphLzy6UABmb1RUtzSaBZBBxMeUCLBOzcAWf4DCYw1sTMYAe8DcU54uxhEfx0mMmCWPjrAHCl0KTrBkjxeJYXCPmvNDjCOjF88WvAkIy3B3oUOwvPxZCVHKlLj31WyQEH7lfU68zYSSZC88ZD",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "Etiam mi lacus, cursus vitae felis et, blandit pellentesque neque. Vestibulum eget nisi a tortor commodo dignissim.\nQuisque ipsum ligula, faucibus a felis a, commodo elementum nisl. Mauris vulputate sapien et tincidunt viverra. Donec vitae velit nec metus."
+        },
+        "description": "https://graph.facebook.com/me/feed?access_token=<your access token>\n\ngenerated via \nhttps://developers.facebook.com/tools/explorer/\n\t\n"
+      },
+      "response": []
+    }
+  ]
+}
